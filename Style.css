@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(238, 237, 237);
+}
+
+
+/* bagian add my projek bootsrapt */
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-orange {
+    color: orangered !important;
+}
+
+.text-center {
+    margin-top: 50;
+}
+
+.bg-orange {
+    background-color: orangered;
+}
+
+.btn-orange {
+    background-color: black;
+    color: white;
+    border-radius: 30px !important;
+    padding: 8px 30px;
+    margin-bottom: 30;
+    border: none;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10 20;
+}
+
+.navbar {
+    height: 7vh;
+}
+
+.container-form-blog {
+    height: 93vh;
+}
+
+.container-form-blog form {
+    width: 450px;
+}
+
+.container-form-blog input,
+textarea {
+    border: 2px solid white !important;
+    background-color: white !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 3px;
+}
+
+.form-check {
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+.form-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20;
+}
+
+
+/* bagian home */
+
+.container-main {
+    display: flex;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    padding: 50px;
+}
+
+.container-content .left-side {
+    flex: 65%;
+    padding-left: 30px;
+}
+
+.container-content .right-side {
+    flex: 35%;
+    padding-left: 30;
+}
+
+
+/* bagian card */
+
+.bg {
+    background: white;
+    height: 100vh;
+}
+
+.bg h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 30;
+}
+
+.myproject {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myproject .container-projects {
+    padding-left: 50;
+    margin-bottom: 30;
+    margin-top: 20;
+}
+
+.myproject .container-projects .flex-container .card {
+    width: 350px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 5px #fffefe;
+    padding: 15;
+}
+
+.myproject .container-projects .flex-container .card img {
+    width: 317px;
+    height: 250;
+    margin-bottom: 10;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.myproject .container-projects .flex-container .card h2 a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.myproject .container-projects .flex-container .card h6 {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: transparent;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.myproject .container-projects .flex-container .card p {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.myproject .container-projects .flex-container .card .logo img {
+    margin: 2px 5px 10px 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.myproject .container-projects .flex-container .btn-group {
+    margin-top: 10;
+}
+
+.myproject .container-projects .flex-container .card .btn-edit {
+    padding: 5px 65px;
+    border: 0;
+    border-radius: 5px;
+    background: black;
+    text-decoration: none;
+    color: white;
+    margin-right: 10;
+}
+
+.myproject .container-projects .flex-container .card .btn-delete {
+    padding: 5px 55px;
+    border: 0;
+    border-radius: 5px;
+    background: black;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* bagian blog detail */
+
+.blog-detail .blog-detail-container h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 100;
+}
+
+.blog-detail .blog-detail-container img {
+    flex: 1;
+    padding-right: 70;
+    width: 800;
+    height: 500;
+}
+
+.blog-detail .blog-detail-container {
+    padding: 100;
+}
+
+.blog-detail .blog-detail-container p {
+    font-size: 15;
+    text-align: justify;
+}
+
+.blog-detail .blog-detail-container .start {
+    display: flex;
+}
+
+.blog-detail .blog-detail-container .side-side {
+    flex: 1;
+    padding-left: 100;
+}
+
+.blog-detail .blog-detail-container .side-side .clock {
+    margin-top: 50;
+}
+
+.blog-detail .blog-detail-container .side-side .node-io {
+    margin-top: 50;
+}
+
+.blog-detail .blog-detail-container .side-side .node-io img {
+    width: 25;
+    height: 10;
+}
+
+.blog-detail .blog-detail-container .side-side h6 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30;
+    font-size: 25px;
+}
+
+.blog-detail .blog-detail-container .side-side i {
+    color: transparent;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
